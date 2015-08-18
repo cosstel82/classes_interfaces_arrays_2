@@ -12,7 +12,8 @@ public class main {
 
 		
 	}
-	
+	//TODO this method is too big and not really readable :) Please extract functionality that create a clean array into another method.
+	//TODO: use an existing method from Java that copies an array into another (line: 32)
 	public static boolean check(char[] chr){
 		char[] alphanumeric_fixed=new char[chr.length]; // in order to filter out the rubbish we copy the original array
 		int j=0; // j is our counter for the numer of cells in the new array
